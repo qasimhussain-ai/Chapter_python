@@ -1,5 +1,18 @@
-letter = ''' Dear <|Name|>,
-            you are selected!
-            <|Date|> '''
+fruit = []
 
-print(letter.replace("<|Name|>", "Qasim").replace("<|Date|>" ,"24 sep 2025"))
+f1 = input("Enter Fruit Name : ")
+fruit.append(f1)
+f2 = input("Enter Fruit Name : ")
+fruit.append(f2)
+f3 = input("Enter Fruit Name : ")
+fruit.append(f3)
+f4 = input("Enter Fruit Name : ")
+fruit.append(f4)
+f5 = input("Enter Fruit Name : ")
+fruit.append(f5)
+f6 = input("Enter Fruit Name : ")
+fruit.append(f6)
+f7 = input("Enter Fruit Name : ")
+fruit.append(f7)
+
+print(fruit)
